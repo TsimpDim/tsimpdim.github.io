@@ -9,7 +9,7 @@ tags: [project]
 ---
 
 {: .box-warning}
-**Remember:** This project is in its early stages - a lot of polish & love is required before this is can be described as a full-fledged product.
+**Remember:** This project is in its early stages - a lot of polish & love is required before this can be described as a full-fledged product.
 
 
 # Overview
