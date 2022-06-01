@@ -16,21 +16,21 @@ author: Tsimpitas Dimitris
 navbar-links:
   About Me: "aboutme"
   My Stuff:
-    - Photography: "https:www.flickr.com/photos/189199421@N02/"
-    - 3D: "https://tsdimpdim.wordpress.com/"
+    - Photography: "https://www.flickr.com/photos/189199421@N02/"
+    - 3D: "https://tsimpdim.wordpress.com/"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/gear-robot-dark.png"
+avatar: "/assets/img/tsdim-personal.jpeg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: "/assets/img/gear-robot-dark.png"
 
 
 # --- Footer social media links --- #
