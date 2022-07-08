@@ -6,7 +6,42 @@ layout: page
 
 {% assign posts = paginator.posts | default: site.posts %}
 
+<div class="my-stuff-block">
+  <h1 class="my-stuff-header">My Stuff</h1>
+  <div class="my-stuff-container">
+    <div class="my-stuff-item">
+      <a href="https://www.flickr.com/photos/189199421@N02/" target="_blank">
+        <img class="my-stuff-img" src="../assets/img/covers/photos.jpg">
+        <label class="my-stuff-label">PHOTOS</label>
+      </a>
+    </div>
+
+    <div class="my-stuff-item">
+      <a href="https://www.tsimpdim.wordpress.com" target="_blank">
+        <img class="my-stuff-img" src="../assets/img/covers/3d.jpg">
+        <label class="my-stuff-label">3D</label>
+      </a>
+    </div>
+
+    <div class="my-stuff-item">
+      <a href="https://jam.tsdim.net" target="_blank">
+        <img class="my-stuff-img" src="../assets/img/covers/jam_logo.jpg">
+        <label class="my-stuff-label">JAM!</label>
+      </a>
+    </div>
+
+    <div class="my-stuff-item">
+      <a href="https://threerstore.herokuapp.com" target="_blank">
+        <img class="my-stuff-img" src="../assets/img/covers/3r.jpg">
+        <label class="my-stuff-label">3RStore</label>
+      </a>
+    </div>
+  </div>
+</div>
+
 <div class="posts-list">
+  <hr/>
+  <h1>All Posts</h1>
   {% for post in posts %}
   <article class="post-preview">
 

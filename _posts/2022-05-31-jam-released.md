@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Announcement: JAM! Released"
-subtitle: A tool you hopefully won't need much
-cover-img: /assets/img/jam/jam-banner.png
+subtitle: a tool you hopefully won't need much
+cover-img: /assets/img/banners/jam-banner.png
 gh-repo: TsimpDim/jam
 gh-badge: [star, follow]
 tags: [project]
