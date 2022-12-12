@@ -7,7 +7,7 @@ tags: [guide]
 ---
 
 # Introduction
-You say your goodbyes. Give a last nod and a wave to your family & friends, and. you. are. off. You have to get the bus, make sure you are on time, you reach the airport, check in, go through security, and wait. You sit in front of your gate, simmering. Read a book, no, actually listen to a podcast, or even better stare off in to the distance. Time's up. Board. Fly. Disembark. Wait for your connection. Tired. Getting late. Board again. Fly. The night view is oddly relaxing. Lights, finally here. Taxi, need to get a taxi. A new land, all foreign, and at night as alien as ever. Home. Time for sleep. We'll handle the future when the time comes.
+You say your goodbyes. Give a last nod and a wave to your family & friends, and. you. are. off. You have to get the bus, make sure you are on time, you reach the airport, check in, go through security, and wait. You sit in front of your gate, simmering. Read a book, no, actually listen to a podcast, or even better stare off in to the distance. Time's up. Board. Fly. Disembark. Wait for your connection. Tired. Getting late. Board again. Fly. The night view is oddly relaxing. Lights, finally here. Taxi, need a taxi. A new land, and at night as foreign as ever. Home. Time for sleep.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rQuAwpGKReE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
