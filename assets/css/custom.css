@@ -2,51 +2,132 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100vw;
+    justify-content: flex-start;
+    margin-left: -30em;
+}
+
+.my-stuff-header {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 2em;
 }
 
 .my-stuff-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: inherit;
+    height: inherit;
+    /* margin-left: 4em; */
 }
 
 .my-stuff-item {
     margin: .5em;
     font-size: 1em;
-    height: 12em;
-    width: 10em;
+    height: 15em;
+    width: 12em;
     max-width: 100%;
     transition: all ease-in-out .2s;;
+
+    border: 2px solid #d6d6d6;
+    border-radius: 5px;
+    /* backdrop-filter: blur(20px); */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-stuff-item a {
+    width: inherit;
+    height: inherit;
+    display: inline-block;
 }
 
 .my-stuff-item:hover {
     cursor: pointer;
-    box-shadow: 10px 10px 10px rgb(203, 203, 203);
-}
-
-.my-stuff-img {
-    height: 10em;
-    width: 10em;
-    max-width: inherit;
+    box-shadow: 5px 5px 0px rgb(203, 203, 203);
 }
 
 .my-stuff-label {
     text-align: center;
     font-weight: 100;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #323232;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
 
-    width: 10em;
+    width: inherit;
     height: 2em;
-
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-
     cursor: pointer;
 }
 
 .my-stuff-item:hover .my-stuff-label {
    border: none;
-   background-color: rgb(248, 248, 248);
+   /* text-decoration: underline;
+   text-decoration-thickness: 5px;
+   text-decoration-color: #ffffff; */
+}
+
+#photos {
+    background-image: url('../img/covers/photos_blur.jpg');
+    background-size: 100% 100%; 
+}
+
+#threed {
+    background-image: url('../img/covers/3d_blur.jpg');
+    background-size: 100% 100%; 
+}
+
+#jam {
+    background-image: url('../img/covers/jam_no_blur.jpg');
+    background-size: 100% 100%; 
+}
+
+#threer {
+    background-image: url('../img/covers/3r_no_blur.jpg');
+    background-size: 100% 100%; 
+}
+
+#schedio {
+    background-image: url('../img/covers/schedio_no_blur.jpg');
+    background-size: 100% 100%; 
+}
+
+#voby {
+    background-image: url('../img/covers/voby_no_blur.jpg');
+    background-size: 100% 100%; 
+}
+
+#posts {
+    background-image: url('../img/covers/posts_blur.jpg');
+    background-size: 100% 100%; 
+}
+
+.about-me-cont {
+    width: 90%;
+    height: 20em;
+    border: 2px solid #d6d6d6;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me-cont img {
+    width: auto;
+    height: inherit;
+    margin: 1em;
+    margin-bottom: -1em;
+}
+
+.about-me-cont p {
+    width: inherit;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.social {
+    font-size: .8em;
 }

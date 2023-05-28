@@ -13,15 +13,8 @@ author: Tsimpitas Dimitris
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  About Me: "aboutme"
-  My Stuff:
-    - Photos: "https://www.flickr.com/photos/189199421@N02/"
-    - 3D: "https://tsimpdim.wordpress.com/"
-    - JAM!: "https://jam.tsdim.net/"
-    - 3RStore: "https://threer.tsdim.net/"
-    - Schedio: "https://schedio.tsdim.net/"
-    - Voby: "https://voby.tsdim.net/"
+# navbar-links:
+#   About Me: "aboutme"
 
 # --- Logo --- #
 
@@ -235,7 +228,3 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
-

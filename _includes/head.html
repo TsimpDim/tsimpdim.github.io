@@ -39,15 +39,6 @@
   <meta name="keywords" content="{{ site.keywords }}">
   {% endif %}
 
-  {% if site.rss-description %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
-  {% endif %}
-
-  {% include gtag.html %}
-  {% include gtm_head.html %}
-  {% include google_analytics.html %}
-  {% include cloudflare_analytics.html %}
-
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}
@@ -78,10 +69,6 @@
     {% endfor %}
   {% endif %}
 
-  {% if site.fb_app_id %}
-  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
-  {% endif %}
-
   {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}
@@ -107,40 +94,23 @@
   <meta property="og:description" content="{{ description }}">
 
   {% if img != "" %}
-  <meta property="og:image" content="{{ img | absolute_url }}">
+    <meta property="og:image" content="{{ img | absolute_url }}">
   {% endif %}
 
   {% if page.id %}
-  <meta property="og:type" content="article">
-  <meta property="og:article:author" content="{{ site.author }}">
-  <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="article">
+    <meta property="og:article:author" content="{{ site.author }}">
+    <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% else %}
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
-  <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
+    <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
   {% endif %}
-
-  {% if img != "" and img != site.avatar %}
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta name="twitter:card" content="summary">
-  {% endif %}
-  <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
-  <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
-
-  <meta property="twitter:title" content="{{ title }}">
-  <meta property="twitter:description" content="{{ description }}">
 
   {% if img != "" %}
-  <meta name="twitter:image" content="{{ img | absolute_url }}">
-  {% endif %}
-
-  {% include matomo.html %}
-
-  {% if page.comments and site.staticman.repository and site.staticman.branch %}
-  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
+    <meta name="twitter:image" content="{{ img | absolute_url }}">
   {% endif %}
 
   {% if page.head-extra %}
@@ -157,5 +127,8 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="../assets/img/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
 
 </head>
