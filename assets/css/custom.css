@@ -5,12 +5,12 @@
   cursor: none;
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media (max-width: 1024px), (hover: none) and (pointer: coarse) {
   * {
-    cursor: auto;
+    cursor: auto !important;
   }
   .cursor, .cursor-trail {
-    display: none;
+    display: none !important;
   }
 }
 
