@@ -1,4 +1,203 @@
 ---
-layout: home
+layout: base
 title: Tsimpitas Dimitris
 ---
+
+<div class="my-stuff-block">
+  <div class="about-me-cont">
+    <img src="assets/img/tsdim-personal.jpeg" alt="Tsimpitas Dimitris" />
+    <div class="about-me-text">
+      <p>
+        <span class="highlight-name">Heyo, it's me, Tsimpitas Dimitris</span>,
+        frequently known as Dimi, TsDim, TsimpDim, Tsimpi, you name it :D
+      </p>
+      <p>
+        Professionally, I started out as a Cloud Engineer focusing on
+        Hyperscalers like AWS although responsibilities shifted throughout the
+        years more towards Product Ownership and Project Management. The coding
+        'itch' however never left me which is why I always try to build and
+        maintain personal projects, which I create to learn new technologies,
+        fulfill my needs, and hopefully help others at the same time. It's a
+        hobby I very much enjoy!
+      </p>
+      <p>
+        On the hobby side of things though, coding is not the only player. I try
+        to maintain a level of creative work through my photography and digital
+        art. My investment in digital art started waaaay back when I was young,
+        but photography was a newfound activity that started in the Corona days.
+        Oh yeah, and biking, can't forget biking. Photography + biking is a
+        combo I would recommend to everyone!
+      </p>
+      <p>
+        Scroll through my stuff - hopefully you'll find something you like.<br /><br />
+        Also, here's where you can find me:
+      </p>
+      <div class="social-links">
+        <a
+          class="social"
+          href="https://github.com/{{ site.social-network-links.github }}"
+          title="GitHub"
+          >GitHub</a
+        >
+        <a
+          class="social"
+          href="https://linkedin.com/in/{{ site.social-network-links.linkedin }}"
+          title="LinkedIn"
+          >LinkedIn</a
+        >
+        <a
+          class="social"
+          href="mailto:{{ site.social-network-links.email }}"
+          title="E-mail"
+          >E-mail</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="section-title">Projects</h1>
+
+<div class="projects-grid">
+  <div class="card-cont">
+    <a href="https://voby.tsdim.net" target="_blank" class="card-link">
+      <img
+        src="assets/img/covers/voby_no_blur.jpg"
+        class="card-img"
+        alt="Voby"
+      />
+      <div class="card-content">
+        <p class="card-text">
+          Having a hard time learning new languages? Voby is an application that
+          is helping people learn new languages by enabling the smart management
+          of custom vocabulary lists. Additional features like dictionary-based
+          auto-translation of words, AI generation of examples, customizable
+          tests, quizzes, and gamification fosters a better learning experience
+          and pushes users to the next level! Take it to the next level with
+          Voby and start learning new languages in a more efficient and fun way!
+        </p>
+        <div class="badge-group">
+          <div class="badge">Django</div>
+          <div class="badge">MYSQL</div>
+          <div class="badge">Angular</div>
+          <div class="badge">AWS Bedrock</div>
+          <div class="badge">AWS</div>
+          <div class="badge">REST</div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="card-cont">
+    <a href="https://jam.tsdim.net" target="_blank" class="card-link">
+      <img
+        src="assets/img/covers/jam_no_blur.jpg"
+        class="card-img"
+        alt="JAM!"
+      />
+      <div class="card-content">
+        <p class="card-text">
+          Looking for a new job can be daunting? It's an arduous process where
+          you have to orchestrate, plan, and organize a ton of back-and-forth
+          communication with potential employers.
+          <i>JAM!</i> allows you to keep track of all your job applications, so
+          that you can easily keep tabs on everything that is important to your
+          career and future. Through the dashboard you can also have access to
+          valuable insights and metrics that will provide you with a 360° view
+          of the job market. Everything revolves around Steps, Groups, and
+          Applications - manage them all from a central location and take your
+          job-hunting to the next level.
+        </p>
+        <div class="badge-group">
+          <div class="badge">Django</div>
+          <div class="badge">MYSQL</div>
+          <div class="badge">Python</div>
+          <div class="badge">Typescript</div>
+          <div class="badge">Angular</div>
+          <div class="badge">Clarity Design</div>
+          <div class="badge">REST</div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="card-cont">
+    <a href="https://schedio.tsdim.net" target="_blank" class="card-link">
+      <img
+        src="assets/img/covers/schedio_no_blur.jpg"
+        class="card-img"
+        alt="Schedio"
+      />
+      <div class="card-content">
+        <p class="card-text">
+          Working in a team of two, worked together with university faculty,
+          including the Dean of the department, to gather requirements and
+          feedback on the development of an inter-university platform to
+          accommodate for their daily research-related bureaucratic procedures.
+          Area of responsibility concerned the development of the back-end by
+          using Django and Heroku, maintaining some of the front-end in ReactJS,
+          modelling some of the procedures using the BPMN specification, and
+          keeping stakeholders up-to-date.
+        </p>
+        <div class="badge-group">
+          <div class="badge">ReactJS</div>
+          <div class="badge">Python</div>
+          <div class="badge">PostgreSQL</div>
+          <div class="badge">REST</div>
+          <div class="badge">Django</div>
+          <div class="badge">RxJS</div>
+          <div class="badge">BPMN</div>
+          <div class="badge">Heroku</div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="card-cont">
+    <a href="https://threer.tsdim.net" target="_blank" class="card-link">
+      <img
+        src="assets/img/covers/3r_no_blur_c.jpg"
+        class="card-img"
+        alt="ThreeR"
+      />
+      <div class="card-content">
+        <p class="card-text">
+          Pure Flask web app used to store, organise, and search web links
+          conveniently online for cross-browser & cross-device access. User
+          options and a deep integration with complex bookmark-management data
+          structures allows for easy export & import of data. One of my first
+          forays into building web apps, I later re-built it with a more
+          advanced setup! That said, the deployed stack is still the old
+          super-robust one.
+        </p>
+        <div class="badge-group">
+          <div class="badge">Flask</div>
+          <div class="badge">Python</div>
+          <div class="badge">ReactJS</div>
+          <div class="badge">Django</div>
+          <div class="badge">RxJS</div>
+          <div class="badge">REST</div>
+          <div class="badge">PostgreSQL</div>
+          <div class="badge">Jinja2</div>
+          <div class="badge">Heroku</div>
+          <div class="badge">AWS</div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<p class="more-text">...and more! Check out my GitHub :)</p>
+
+<h1 class="section-title">Creative Work</h1>
+<div class="my-stuff-container">
+  <div class="my-stuff-item" id="photos">
+    <a href="https://www.flickr.com/photos/189199421@N02/" target="_blank"></a>
+    <div class="my-stuff-label">Photography</div>
+  </div>
+
+  <div class="my-stuff-item" id="threed">
+    <a href="https://www.tsimpdim.wordpress.com" target="_blank"></a>
+    <div class="my-stuff-label">Digital Art</div>
+  </div>
+</div>
